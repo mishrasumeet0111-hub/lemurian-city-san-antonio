@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-san-antonio-tx#service",
+      "name": "Website design in San Antonio, TX",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-san-antonio-tx",
+      "description": "Website designers for San Antonio, Texas businesses. We design and build custom sites, brands and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "San Antonio, Texas",
+          "sameAs": "https://www.wikidata.org/wiki/Q975"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bexar County, Texas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Comal County, Texas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Guadalupe County, Texas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Medina County, Texas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wilson County, Texas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Atascosa County, Texas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Kendall County, Texas"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bandera County, Texas"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for San Antonio businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Texas",
+          "item": "https://www.lemurianstudios.com/services/web-design-texas"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "San Antonio, TX",
+          "item": "https://www.lemurianstudios.com/services/website-design-san-antonio-tx"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you build sites for businesses that serve military families?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We make sure the details that matter to people relocating (location, hours, prices, any military discount) are easy to find before they arrive."
+          }
+        }
+      ]
+    }
+  ]
+}
