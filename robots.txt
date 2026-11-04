@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://san-antonio.lemurianstudios.com/sitemap.xml
